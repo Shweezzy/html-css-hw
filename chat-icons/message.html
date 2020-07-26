@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #rose {
+            background-color: #FFB6C1;
+            border: 1px solid #FFB6C1;
+            border-radius: 1em 1em 1em 0;
+            padding: 1em;
+            font-size: 90%;
+        }
+
+        #notrose {
+            background-color: #ADD8E6;
+            border: 1px solid #ADD8E6;
+            border-radius: 1em 1em 0 1em;
+            padding: 1em;
+            font-size: 90%;
+        }
+
+        .global {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            grid-auto-rows: 50px;
+        }
+
+        #float {
+            display: inline-flex;
+            justify-content: flex-end;
+        }
+
+        div {
+            display: inline-flex;
+        }
+
+        div span {
+            position: relative;
+            top: 20px;
+        }
+
+        img {
+            height: 150%;
+        }
+
+        small {
+            color: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="global">
+        <div id="float"><span>Anie Smith
+                <br><small>4 hours ago</small></br></span> <img src="icons/avatar_2.png" alt=""></div>
+        <div id="rose">Ut in scelerisque, pharetra elit id, maasd asda</div>
+        <div></div>
+        <div></div>
+        <div id="notrose">Ut in scelerisque, pharetra elit id, maasd asda</div>
+        <div><img src="icons/avatar_1.png" alt="">
+            <span>Anie Smith
+                <br><small>4 hours ago</small></br></span></div>
+        <div id="float"><span>Anie Smith
+                <br><small>4 hours ago</small></br></span> <img src="icons/avatar_2.png" alt=""></div id="float">
+        <div id="rose">Ut in scelerisque, pharetra elit id, maasd asda</div>
+        <div></div>
+        <div></div>
+        <div id="notrose">Ut in scelerisque, pharetra elit id, maasd asda</div>
+        <div><img src="icons/avatar_1.png" alt="">
+            <span>Anie Smith
+                <br><small>4 hours ago</small></br></span></div>
+        <div id="float"><span> Anie Smith
+                <br><small>4 hours ago</small></br></span><img src="icons/avatar_2.png" alt=""></div id="float">
+        <div id="rose">Ut in scelerisque, pharetra elit id, maasd asda</div>
+        <div></div>
+        <div></div>
+        <div id="notrose">Ut in scelerisque, pharetra elit id, maasd asda</div>
+        <div><img src="icons/avatar_1.png" alt="">
+            <span>Anie Smith
+                <br><small>4 hours ago</small></br></span></div>
+    </div>
+</body>
+
+</html>

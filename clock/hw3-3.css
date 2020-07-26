@@ -1,0 +1,38 @@
+.left {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+.right {
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+body {
+    width: 600px;
+}
+.sss {
+    background-color: #F5F5F5;
+    transition-duration: 0.3s;
+}
+.sss div{
+    margin: 80px;
+}
+
+
+.imag {
+    transition-duration: 3s;
+    background-image: url("asd.png");
+    background-size: 10px;
+}
+
+.global:hover > .two {
+    background-color: #DADADA;
+}
+.global:hover > .three {
+    background-color: #7A7A7A;
+}
+.global:hover > .imag {
+    background-size: 300px;
+    background-position: center;
+}

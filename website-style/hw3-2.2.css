@@ -1,0 +1,70 @@
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: -40px;
+}
+
+li {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    text-indent: 50px;
+    color: white;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    margin-left: -40px;
+
+}
+
+.lolo {
+    background-color: #808080;
+    float: middle;
+    height: 760px;
+    width: 120px;
+    position: fixed;
+    top: 0;
+    transition: width 0.5s, height 0.5s, transform 1s; 
+    opacity: 1;
+}
+.ssss {
+    display: inline-block;
+    padding-top: 30px;
+    position: fixed;
+    
+}
+
+.lolo:hover{
+    width: 350px;
+    vertical-align: middle;
+    transform: scale(1.0);
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 16px;
+    position: absolute;
+}
+.coco {
+    margin-left: 20%;
+  
+}
+
+li:hover {
+    background-color: #5E5E5E;
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+   
+}

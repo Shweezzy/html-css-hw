@@ -1,0 +1,39 @@
+.left {
+    background-color: #872D62;
+    border: 4px solid #651142;
+    width: 49.4%;
+    height: 500px;
+    float: left;
+    transition-duration: 2s;
+
+}
+
+.right {
+    background-color: #872D62;
+    border: 4px solid #651142;
+    width: 49.4%;
+    height: 500px;
+    float: right;
+    transition-duration: 2s;
+}
+
+.centre {
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 43%;
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+.holl:hover>.left {
+    transform: perspective(400px) rotateY(30deg);
+}
+
+.holl:hover>.right {
+    transform: perspective(400px) rotateY(-30deg);
+}
+.holl:hover>.centre {
+    opacity: 1;
+}
