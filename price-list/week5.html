@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+    table, th, td {
+
+         border-collapse: collapse;
+         padding: 15px;
+    }
+    #heavy {
+        background: #F3F3F3;
+    }
+
+    tbody {
+        border-radius: 5%;
+    }
+
+    tr:nth-child(2n) {
+    background: #DBDBDB; /* Цвет фона */
+    } 
+    tr:nth-child(2n+1) {
+    background: #ECECEC; /* Цвет фона */
+    } 
+
+    tr:nth-child(1) {
+    background-color: #ECECEC;
+   
+    } 
+    td:nth-child(n+2) {
+        text-align: center;
+    }
+    th:nth-child(1) {
+        background-color: #7887AB;
+        color: #ffffff;
+    }
+    th:nth-child(2) {
+        background-color: #4F628E;
+        color: #ffffff;
+    }
+    th:nth-child(3) {
+        background-color:#4F628E;
+        color: #ffffff;
+    }
+    th:nth-child(4) {
+        background-color: #162955;
+        color: #ffffff;
+    }
+    th:nth-child(5) {
+        background-color: #061437;
+        color: #ffffff;
+    }
+    p {
+        margin-bottom: -5px;
+        font-size: 30px;
+    }
+    span {
+        padding: 5px;
+        border: 1px solid black;
+        background: #D3D3D3;
+        opacity: 0.7;
+    }
+    span:hover {
+        background: blue;
+        font-size: 20px;
+        color: white;
+    }
+   
+    </style>
+</head>
+<body>
+<div>
+    <table>
+        <tbody>
+        <tr>
+          <th>Choose your plan</th>
+          <th>starter<p>$10</p>per month</th> 
+          <th>econom<p>$30</p>per month</th>
+          <th>standard<p>$59</p>per month</th>
+          <th>professional<p>$99</p>per month</th>
+        </tr>
+        <tr>
+          <td>Amount of space</td>
+          <td>20GB</td> 
+          <td>40GB</td>
+          <td>110GB</td>
+          <td>Unlimited</td>
+        </tr>
+        <tr>
+          <td>Nadwidth per month</td>
+          <td id="heavy">120GB</td> 
+          <td>240GB</td>
+          <td id="heavy">610GB</td>
+          <td>1300GB</td>
+        </tr>
+        <tr>
+            <td>Email accounts</td>
+            <td>1</td>
+            <td>15</td>
+            <td>60</td>
+            <td>Unlimited</td>
+        </tr>
+        <tr>
+            <td id="heavy">MySQL databases</td>
+            <td id="heavy">1</td>
+            <td>15</td>
+            <td id="heavy">60</td>
+            <td>Unlimited</td>
+        </tr>
+        <tr>
+            <td>25h support</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td id="heavy">Support tickets per month</td>
+            <td id="heavy">2</td>
+            <td>6</td>
+            <td id="heavy">14</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><span>START</span></td>
+            <td><span>START</span></td>
+            <td><span>START</span></td>
+            <td><span>START</span></td>
+        </tr>
+    </tbody>
+      </table>
+    </div>
+</body>
+</html>

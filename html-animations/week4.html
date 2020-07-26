@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>week4</title>
+    <style>
+    
+    body {
+        border: 2px solid orange;
+        width: 700px;
+        height: 100px;
+        margin-left: 25%;
+        margin-top: 15%;
+        
+    }
+    .back {
+        background-color: orange;
+        width: 100px;
+        height: 100px;
+        animation-direction: alternate;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        position: relative;
+        animation-name: box;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes box {
+        0%   {background-color; left:0px;}
+        25%  {background-color; left:150px;}
+        50%  {background-color; left:300px;}
+        75%  {background-color; left:450px;}
+        100% {background-color; left:600px;}
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="back"></div>
+    
+</body>
+</html>

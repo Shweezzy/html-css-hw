@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week4</title>
+    <style>
+
+        .calc {
+            transform: rotate(-35deg);
+            width: 150px;
+            height: auto;
+            animation-direction: alternate;
+            animation-duration: 2s;
+            position: relative;
+            animation-name: box;
+            animation-timing-function: normal;
+            animation-delay: 0;
+            animation-fill-mode: forwards;
+          
+            
+        }
+        .book {
+            transform: rotate(-15deg);
+            width: 300px;
+            height: auto;
+            animation-direction: alternate;
+            animation-duration: 2s;
+            position: relative;
+            animation-name: box;
+            animation-timing-function: normal;
+            animation-delay: 2s;
+            opacity: 0;
+            animation-fill-mode: forwards;
+            
+            
+        }
+        .paper {
+            transform: rotate(15deg);
+            width: 300px;
+            height: auto;
+            animation-direction: alternate;
+            animation-duration: 2s;
+            position: relative;
+            animation-name: box;
+            animation-timing-function: normal;
+            animation-delay: 4s;
+            opacity: 0;
+            animation-fill-mode: forwards;
+        
+           
+        }
+        .pallete {
+            transform: rotate(35deg);
+            width: 150px;
+            height: auto;
+            animation-direction: alternate;
+            animation-duration: 2s;
+            position: relative;
+            animation-name: box;
+            animation-timing-function: normal;
+            animation-delay: 6s;
+            opacity: 0;
+            animation-fill-mode: forwards;
+       
+
+        }
+        .pencil {
+            transform: rotate(90deg);
+            animation-direction: alternate;
+            animation-duration: 2s;
+            position: relative;
+            animation-name: box;
+            animation-timing-function: normal;
+
+            animation-delay: 8s;
+            opacity: 0;
+            animation-fill-mode: forwards;
+         
+        }
+        
+        h1 {
+            margin-bottom: 100px;
+        }
+        @keyframes box {
+        from {top: 400px; opacity: 0; display: none;}
+        to {top:0px; opacity: 1; display: contents;}
+    }
+    
+    </style>
+</head>
+<body style="background-color: #FAFAD2;">
+    <div style="text-align: center;">
+        <h1>HELLO, MY SITE!</h1>
+        <img src="icons/calc.png" alt="calculator" class="calc">
+        <img src="icons/book.png" alt="book" class="book">
+        <img src="icons/paper.png" alt="paper" class="paper">
+        <img src="icons/pallete.png" alt="pallete" class="pallete">
+        <p><img src="icons/pencil.png" alt="pencil" class="pencil"></p>
+    </div>
+</body>
+</html>
