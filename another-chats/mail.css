@@ -1,0 +1,106 @@
+#mail {
+    height: 25px;
+    margin-right: 1%;
+}
+
+#acc {
+    height: 45px;
+    margin-left: 1%;
+}
+
+.mail {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.acc {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.header {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.global {
+    display: inline-flex;
+    width: 100%;
+}
+
+.leftmenu {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    width: 27%;
+}
+span {
+    position: relative;
+    top: -10px;
+}
+a {
+    padding: 2%;
+}
+
+a:hover {
+    background-color: #F4E4E4;
+}
+
+ul:hover {
+    background-color: darkgray;
+}
+
+.rightmenu ul li {
+    display: inline-flex;
+    width: 10%;
+    align-items: center;
+}
+
+ul {
+    width: 60%;
+}
+
+#attach {
+    height: 25px;
+    width: 35%;
+}
+
+#star {
+    width: 50%;
+    height: 25px;
+}
+
+#star2 {
+    width: 50%;
+    height: 25px;
+}
+
+#starr {
+    width: 5%;
+    position: relative;
+    top: 20px;
+}
+#text {
+    width: 50%;
+    
+}
+
+.rightmenu {
+    width: 100%;
+    display: inline-table;
+}
+.dg {
+    color: rgb(228, 218, 218);
+}
+@media screen and (max-width: 550px) {
+    span {
+        display: none;
+    }
+    #starr {
+        width: 15%;
+    }
+}

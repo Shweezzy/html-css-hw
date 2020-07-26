@@ -1,0 +1,47 @@
+body {
+    background-color: #014242;
+}
+h1 {
+    color: white;
+}
+.one {
+    margin: 1em;
+}
+.two {
+    display: inline-flex;
+    flex-flow: nowrap row;
+    align-items: center;
+    margin: 1em;
+    
+}
+.hope {
+    display: inline-flex;
+    flex-direction: column;
+}
+.white {
+    color: white;
+}
+div tr {
+    color: darkgrey;
+}
+img {
+    width: 10%;
+    height: 1%;
+    
+}
+.table {
+    display: inline-flex;
+    flex-flow: nowrap row;
+}
+@media screen and (max-width: 600px) {
+    .table{
+        display: inline;
+        flex-flow: row wrap;
+        margin-left: 3%;
+        
+    }
+    .coco {
+      padding: 5%;
+        flex-flow: row nowrap;
+    }
+}

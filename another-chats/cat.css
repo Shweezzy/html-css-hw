@@ -1,0 +1,68 @@
+body {
+    background-color: darkgrey;
+    
+}
+.cat{
+    background-color: #37516B;
+    width: 25%;
+    text-align: right;
+    border-radius: 0.5em;
+    padding-right: 1;
+    margin: 1em;
+    display: inline-block;
+    
+}
+
+img {
+    width: 100%;
+    border-radius: 0.5em 0.5em 0 0;
+}
+.global {
+   
+}
+.cats {
+   display: flex;
+   flex-flow: column nowrap;
+}
+.cry {
+display: inline-flex;
+}
+.down {
+width: 70%;
+position: relative;
+top: -13em;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .cry {
+        display: inline-block;
+    }
+    .cats {
+        display: flex;
+        flex-flow: row nowrap;
+     }
+    .down {
+        top: 0;
+    }
+    .global {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .cry {
+        display: inline-block;
+    }
+    .cats {
+        display: flex;
+     width: 70%;
+     }
+     .cat {
+         width: 90%;
+     }
+    .down {
+        top: 0;
+    }
+    .global {
+        width: 70%;
+    }
+}

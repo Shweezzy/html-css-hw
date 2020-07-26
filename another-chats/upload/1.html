@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .global {
+            display: inline-flex;
+            flex-flow: column;
+            position: relative;
+            top: -8em;
+            margin-left: 2%;
+        }
+
+        .title {
+            display: inline;
+            margin-top: 3em;
+        }
+
+        .img {
+            display: inline-block;
+        }
+        img {
+            padding: 1em;
+        }
+        .border {
+            border: 2px solid black;
+            height: 11.5em;
+            width: 75%;
+        }
+        #one {
+            
+            border-left: 1px solid #6D83B1;
+            border-top: 1px solid #6D83B1;
+            border-bottom: 1px solid #6D83B1;
+            background-color: #D0D6E2;
+            padding: 0.5em 1em 0.5em 0.5em;
+        }
+        button {
+            padding: 0.5em;
+            background-color: #3B5998;
+            width: 10em;
+            position: relative;
+            top: -2px;
+        }
+        small {
+            color: darkgray;
+        }
+        #two {
+            
+            padding: 0.5em 0.5em 0.5em 1em;
+            border-right: 1px solid #6D83B1;
+            border-top: 1px solid #6D83B1;
+            border-bottom: 1px solid #6D83B1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="border">
+
+    <div class="img">
+        <img src="icons/loading.png" alt="">
+    </div>
+    <div class="global">
+        <div>
+            <span id="one">UPLOADING 40%</span><span id="two">About 23 minutes remaining</span>
+            <button>DONE</button>
+        </div>
+
+        <div class="title">
+            <b>Title of video</b> 
+            <br><small>Spa*Your vide is still uploading. Please keep this page open until`s done.</small></br>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
