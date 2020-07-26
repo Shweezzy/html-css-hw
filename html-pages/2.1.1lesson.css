@@ -1,0 +1,16 @@
+body {
+    background-color: #F5F5F5;
+    margin-right: 50%;
+}
+li {
+    list-style-type: upper-roman;
+}
+ol li {
+    list-style-type: decimal;
+}
+.lowerA li{
+    list-style-type: lower-alpha;
+}
+span {
+    color: darkcyan;
+}

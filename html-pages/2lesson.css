@@ -1,0 +1,16 @@
+.a li {
+    list-style-image: url("icons/winter_16.png");
+}
+.b li {
+    list-style-image: url("icons/spring_16.png");
+}
+.c li {
+    list-style-image: url("icons/summer_16.png");
+}
+.d li {
+    list-style-image: url("icons/autumn_16.png");
+}
+body {
+    background-color: #F5F5F5;
+    margin-right: 50%;
+}

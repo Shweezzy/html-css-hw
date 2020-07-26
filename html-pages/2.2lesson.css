@@ -1,0 +1,17 @@
+body {
+    background-color: #F5F5F5;
+    margin-right: 25%;
+}
+h3 {
+    background-color: #0E494E;
+    padding: 0 0 0 40px;
+    margin: 0;
+    color: white;
+}
+li {
+    list-style-type: none;
+    background-color: #236167;
+    margin: 0;
+    padding: 0 0 0 20px;
+    color: white;
+}
